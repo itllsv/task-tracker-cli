@@ -1,7 +1,8 @@
-# A CLI Task Tracker in C
+# task-tracker-cli
+
 > **No AI used for learning reasons.**
 
-A task manager built in C, based on the [roadmap.sh/projects/task-tracker](https://roadmap.sh/projects/task-tracker) requirements.
+A CLI task manager built in C, based on the [roadmap.sh/projects/task-tracker](https://roadmap.sh/projects/task-tracker) requirements.
 
 ## Build:
 ```bash
