@@ -5,37 +5,37 @@ A task manager built in C, based on the [roadmap.sh/projects/task-tracker](https
 
 ## Build:
 ```bash
-gcc -o task-cli main.c
+gcc -o task main.c
 ```
 
 ## Usage:
 ### add
 ```bash
-./task-cli add "Learn C pointers"
+./task add "Learn C pointers"
 ```
 
 ### update
 ```bash
-./task-cli update 1 "Learn C pointers and memory allocation"
+./task update 1 "Learn C pointers and memory allocation"
 ```
 
 ### delete
 ```bash
-./task-cli delete 1
+./task delete 1
 ```
 
 ### change status
 ```bash
-./task-cli mark-in-progress 1
-./task-cli mark-done 1
+./task mark-in-progress 1
+./task mark-done 1
 ```
 
 ### list
 ```bash
-./task-cli list
-./task-cli list done
-./task-cli list todo
-./task-cli list in-progress
+./task list
+./task list done
+./task list todo
+./task list in-progress
 ```
 
 This project is licensed under the [MIT License](LICENSE).
